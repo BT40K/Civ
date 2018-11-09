@@ -5,17 +5,18 @@
     <title>Civ</title>
     <style>
       .header {
-        background: linear-gradient(to bottom left, #000000 12%, #ffffff 50%);
-        height: 200px;
+        background: linear-gradient(to bottom left, #660066 27%, #ffffff 93%);
+
         padding: 20px;
         position: fixed;
         left: 0;
         top: 0;
         width: 100%;
+        text-align: center;
       }
 
       .content {
-        margin-top:300px;
+        margin-top:200px;
         background-color: white;
         width: 100%;
       }
@@ -23,7 +24,7 @@
       .column1 {
         background-color: white;
         padding: 20px;
-        width: 65%;
+        width: 45%;
         float: left;
       }
 
@@ -31,18 +32,19 @@
         background-color: white;
         padding: 20px;
         margin-top: 54px;
-        width: 25%;
+        width: 45%;
         float: left;
       }
 
       .footer {
-        background-color: black;
+        float:left;
+        background: linear-gradient(to top, #000000 0%, #ffffff 96%);
         width: 100%;
-        position: fixed;
         left: 0;
         bottom: 0;
         color: white;
         padding: 20px;
+        margin-top:50px;
       }
 
     </style>
@@ -50,9 +52,17 @@
   <body>
 
     <div class="header">
-      <h1>Header</h1>
-      <p><strong>CHRISTOFFER KARLSSON</strong></p>
-    </div>
+
+      <div style="width: 18%; float:left;">
+        <img style="width:200px; height:125px" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/40158530_1647000102076749_5799440163071328256_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=572b86699547e41621a59d80de35375f&oe=5C3CA2E0" >
+      </div>
+
+      <div style="width: 75%; margin-top: 0px; text-align: left;">
+        <h1 style="color:#ffffff;">Christoffer Karlsson</h1>
+        <p style="font-size:30px; padding-left:50px; margin-top:-20px">Newbie web designer</p>
+      </div>
+
+    </div> <!-- class Header end -->
 
     <div class="content">
         <div class="column1">
@@ -85,16 +95,21 @@
           </p>
           <p style="margin-top: 114px"><strong>TET goal</strong>
             <hr>
-              The goal with the TET were that I learn how to program my own website
-              and which elements you use example div ,it's like a block
-              which you put inside the body of the site.
+            </br>The goal with the TET were that I learn how to program and color my own website
+              and which elements you use example <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">h1</a>.
 
-          </p>
+            </p>
+          <p style="margin-top: 20px;">Links
+            <hr>
+            <a href="https://www.codecademy.com" target="_blank">Codecademy</a> for starters.
+          </br><a href="https://www.w3schools.com/default.asp" target="_blank">W3schools</a>
+        </br><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
         </div>
     </div>
 
     <div class="footer">
-      <h1>Footer</h1>
+      <h1 style="font-size: 10px; text-align: center; opacity: 0.5;">Copyright ® Christoffer Karlsson 2018</h1>
     </div>
 
   </body>
